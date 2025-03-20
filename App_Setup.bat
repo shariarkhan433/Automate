@@ -6,7 +6,9 @@ start /wait winget install Git.Git --accept-package-agreements --accept-source-a
 
 start /wait winget install Github-Desktop --accept-package-agreements --accept-source-agreements
 
-start /wait winget install Google.Chrome --accept-package-agreements --accept-source-agreements
+start /wait winget install Google.Chrome --accept-package-agr
+
+eements --accept-source-agreements
 
 start /wait winget install Notepad++ --accept-package-agreements --accept-source-agreements
 
@@ -26,6 +28,14 @@ curl -L -o %File% %URL%
 
 echo Running the installer...
 start /wait "" %File% /S /v"/qn ACCEPT_EULA=YES"
+
+rem installing unreal prerequisities
+set UnrealFile="D:\Eagle3D\task\unreal.exe"
+set UnrealURL="https://www.dropbox.com/scl/fi/9of1zu5y45l678w5u8uox/UEPrereqSetup_x64-5.5.exe?rlkey=jn5h5n1s5obarw767hg9czbdv&e=1&st=ygwqm84v&dl=0"
+
+curl -L -o  %UnrealFile% %UnrealURL%
+
+start /wait "" %UnrealFile% /S /v"/qn ACCEPT_EULA=YES"
 
 
 rem installing VBSCABLE
