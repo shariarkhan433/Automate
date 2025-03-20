@@ -1,6 +1,8 @@
 # To-Do List
 
-## Diseble Firewall and anti virus
+## Add Environment Variables
+
+- Add the environment variable for the 7-Zip
 
 ## Map Network Drive
 
@@ -9,11 +11,6 @@
 - These task might be possible to automate through bat file
 
 # Apps that couldn't be automated
-
-## Unreal Prerequisities
-
--  Downloading and installing from google drive failed.
--  Installation could be possible if it exists in dropbox.
 
 ## Visual Studio
 
