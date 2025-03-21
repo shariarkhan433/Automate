@@ -14,8 +14,8 @@
 
 ## Visual Studio
 
--  App instllation is doable.
--  But installing the specific config provides challange.
+-  App instllation with specified config is done.
+-  But we have to sign-in manually. There is no work around it.
 
 ## Epic Launcher and Unreal Engine
 
