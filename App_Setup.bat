@@ -50,3 +50,5 @@ cd "C:\0.ps\eagle3dstreaming_b_v1\Extras\"
 msiexec /i node-v19.9.0-x64.msi /passive /norestart
 
 
+:: Installing Visual Studio with its necessary components
+:: 
