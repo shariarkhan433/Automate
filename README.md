@@ -1,21 +1,19 @@
 # To-Do List
 
-## Add Environment Variables
-
-- Add the environment variable for the 7-Zip
-
 ## Map Network Drive
 
-## Notes
+# Notes
 
-- These task might be possible to automate through bat file
+## Adding Environment Variables
 
-# Apps that couldn't be automated
-
+- Adding the system variables might delete the entire system variables. In that case we need to rum the code from setup.sh as administrator in powershell. It would copy all the variables from the user path and paste it to the system path.
+- 
 ## Visual Studio
 
 -  App instllation with specified config is done.
 -  But we have to sign-in manually. There is no work around it.
+-  
+# Apps that couldn't be automated
 
 ## Epic Launcher and Unreal Engine
 
