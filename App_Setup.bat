@@ -6,9 +6,7 @@ start /wait winget install Git.Git --accept-package-agreements --accept-source-a
 
 start /wait winget install Github-Desktop --accept-package-agreements --accept-source-agreements
 
-start /wait winget install Google.Chrome --accept-package-agr
-
-eements --accept-source-agreements
+start /wait winget install Google.Chrome --accept-package-agreements --accept-source-agreements
 
 start /wait winget install Notepad++ --accept-package-agreements --accept-source-agreements
 

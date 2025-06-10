@@ -2,7 +2,7 @@
 
 ## Add Environment Variables
 
-- Add the environment variable for the 7-Zip
+- Need to clone the codebase from github before starting any of these. So need to add those code.
 
 ## Map Network Drive
 
