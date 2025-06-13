@@ -2,8 +2,6 @@
 
 ## Add Environment Variables
 
-- Need to clone the codebase from github before starting any of these. So need to add those code.
-
 ## Map Network Drive
 
 ## Notes
