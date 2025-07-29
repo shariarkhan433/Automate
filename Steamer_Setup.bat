@@ -16,6 +16,11 @@ start /wait winget install 7zip.7zip --accept-package-agreements --accept-source
 
 start /wait winget install WinMerge.WinMerge --accept-package-agreements --accept-source-agreements
 
+start /wait winget install Microsoft.VisualStudioCode --accept-package-agreements --accept-source-agreements
+
+:: installing epic games
+start /wait winget install XP99VR1BPSBQJ2 --accept-package-agreements --accept-source-agreements
+
 
 :: Installing Mellanox driver
 set URL="https://www.dropbox.com/scl/fi/kb6vjqnxz3vr55g4z954i/MLNX_VPI_WinOF-5_50_53000_All_Win2019_x64.exe?rlkey=s4d3mhlw7wnqfsnbawfg7qgan&e=1&dl=0"
